@@ -16,7 +16,7 @@
 
 	body{
    	 	background-image: url("https://raw.githubusercontent.com/EthanWyrick/EthanWyrick.github.io/main/San%20Francisco%20Skyline.jpeg");
-   	 	font-family: Garamond;
+   	 	font-family: Times;
   	 	background-repeat: no-repeat;
  		 background-position:top;
     
@@ -52,7 +52,7 @@ a:hover {
     
   }
   h2{
-  	border-radius: 50px 50px 5px 5px;
+  	border-radius: 25px;
     margin:auto;
     margin-top:50px;
     margin-bottom:0px;
@@ -103,6 +103,7 @@ a:hover {
   }
   table {
   	width:83%;
+    border-radius: 25px;
   	text-align:center;
 	border-radius: 0px;
   	margin:auto;
@@ -115,11 +116,19 @@ a:hover {
     font-size:200%;
     }
    th, td {
-   	border-radius: 5px 10px;
     padding:1%;
     
   	background-color:rgba(255,255,255,0.15);
     border-style: double;
+    	border-radius: 25px 25px;
+	}
+    
+    tr:nth-child(even){
+    	background-color:rgba(0,0,0,0.15);
+   		border-radius: 5px 5px;
+	}
+    tr:hover{
+    	background-color:rgba(255,255,0,0.15);
 	}
   </style>
 </head>
@@ -141,21 +150,40 @@ a:hover {
 <table>
 	
         <tr>
-        	<th>Skill</th>
-            <th>Level</th>
-            <th style="width:%">About</th>
+        	<th>Skills</th>
+            <th colspan = "2">Level</th>
+           
         </tr>
         <tr>
-        	<td>ARM assembly</td>
-            
-            <td></td>
-        </tr>
-        <tr>
-        	<td>C</td>
+        	<td>ARM Assembly,C,C++,HTML/CSS</td>
             <td>Proficient</td>
-            <td></td>
+            <td>
+           		<svg width="100" height="25">
+ 					<rect width="100" height="25" style="fill:rgba(0,0,0,0.5);stroke-width:5;stroke:rgb(0,0,0)" />
+					 <rect width="100" height="25" style="fill:rgba(255,255,255,0.5);stroke-width:5;stroke:rgb(255,255,255)" />
+				</svg>
+            </td>
         </tr>
-        
+        <tr>
+        	<td>Java,Matlab,Python,Javascript</td>
+            <td>Familiar</td>
+            <td>
+            	<svg width="100" height="25">
+ 					<rect width="100" height="25" style="fill:rgba(0,0,0,0.5);stroke-width:5;stroke:rgb(0,0,0)" />
+					 <rect width="75" height="25" style="fill:rgba(255,255,255,0.5);stroke-width:5;stroke:rgb(255,255,255)" />
+				</svg>
+            </td>
+        </tr>
+        <tr>
+        	<td>Gimp,Adobe Illustrator</td>
+            <td>Familiar</td>
+            <td>
+            	<svg width="100" height="25">
+ 					<rect width="100" height="25" style="fill:rgba(0,0,0,0.5);stroke-width:5;stroke:rgb(0,0,0)" />
+					 <rect width="75" height="25" style="fill:rgba(255,255,255,0.5);stroke-width:5;stroke:rgb(255,255,255)" />
+				</svg>
+            </td>
+        </tr>
     
 </table>
 
