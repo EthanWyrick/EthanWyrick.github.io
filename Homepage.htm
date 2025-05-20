@@ -1,133 +1,59 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-  <style>
-	a:link {
-  		color: white;
-	}
-
-	a:visited {
-  		color: white;
-	}
-
-
-	a:hover {
-  		color: yellow;
-	}
-	
-  body{
-    background-image: url("SnowyHill.jpeg");
-    background-color:rgb(15,15,15);
-    font-family: Georgia;
-    background-repeat: no-repeat;
-    background-position:top;
-    font-size: 100%;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Wyrick's Homepage</title>
+    <link rel="stylesheet" href="EthanCSS.css">
     
-  }
-  h1{
-  	
-    width:60%;
-    margin:auto;
-    margin-bottom:5px;
-    text-align:center;
-    font-size:400%;
-    padding:0%;
-    color:white;
-
-    
-  }
-  h2{
-  	border-radius: 5px 5px 50px 50px;
-    width:100%;
-    margin:auto;
-    margin-bottom:50px;
-    text-align:center;
-    font-size:200%;
-    padding:0%;
-    color:white;
-
-    background-color:rgba(0,0,0,0.5);
-    
-  }
-  h3{
-  	border-radius: 5px 75px;
-    width:60%;
-    margin:auto;
-    text-align:center;
-    font-size:100%;
-    padding:0%;
-    color:white;
-    
-  }
-  p{
-  	border-radius: 25px 5px;
-  	margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align:center;
-    padding:1%;
-    color:rgb(255,255,255);
-    
-  }
-  table {
-  	text-align:center;
-	border-radius: 5px;
-  	margin:auto;
-    border-spacing: 10px;
-    color:rgb(255,255,255);
-    
-    
-	}
-   th{
-    font-size:200%;
-    }
-   th, td {
-   	border-radius: 10px;
-    padding:5px;
-    
-  	background-color: rgba(0,0,0,0.05);
-	}
-  </style>
 </head>
 <body>
+    <!-- Header section with name/title -->
+    <header>
+    	<nav>
+    	<a href="#about">About</a> <a href="#projects">Projects</a> <a href="#locations">Locations</a> <a href="#misc">Miscellaneous</a> 
+        </nav>
+    </header>
 
-<h2>
-	<a href=>home</a>
-    <a href=>nav1</a>
-    <a href=>nav2</a>
-    <a href=>nav3</a>
-</h2>
-
-
-<h1>Ethan Wyrick<h3> erwyrick@gmail.com</h3></h1>
-
-
-
-<p>Welcome to my website! I am a current junior at Santa Clara University, interested in both the hardware and software in computers</p>
-
-<table>
-	
-        <tr>
-        	<th>Skill</th>
-            <th>Level</th>
-            <th style="width:50%">About</th>
-        </tr>
-        <tr>
-        	<td>ARM assembly</td>
-            <td>Intermediate</td>
-            <td></td>
-        </tr>
-        <tr>
-        	<td>C</td>
-            <td>Proficient</td>
-            <td></td>
-        </tr>
+   <section id="main">
+   		
+        <h1>Ethan Wyrick </h1>
+        <img src="Images/MyFace.JPEG" alt="Image of Me"> 
+        <p>Email: erwyrick@gmail.com</p>
+        <a href="https://www.linkedin.com/in/ethanwyrick">LinkedIn</a>
         
+    	
+    	
+   </section>
     
-</table>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Ethan, a graduating Senior in Electrical and Computer Engineering at Santa Clara University, with experience in embedded systems, signal processing, and quadrupedal control systems. Feel free to take a peek around!</p>
+        <video width="100%" height="100%" controls>
+            <source src="Images/LEDstrip.MOV">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 
+    <section id="projects">
+        <h2><a href="Projects.htm">Projects</a></h2>
+        <img src="Images/PACRRFrontal.JPG" alt="Project Image 1">
+    </section>
+	
+    
+    <section id="locations">
+        <h2><a href="Locations.htm">Locations</a></h2>
+        <img src="Locations/PointLomaSeaCliffs.JPG" alt="Point Loma">
+    </section>
+    
+    <section id="misc">
+        <h2>Miscellaneous</h2>
+        <iframe src="https://www.desmos.com/calculator/ci9dnpq6cd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Ethan Wyrick. All Rights Reserved.</p>
+    </footer>
 </body>
-
 </html>
+
