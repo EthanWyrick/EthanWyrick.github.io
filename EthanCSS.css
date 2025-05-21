@@ -35,6 +35,10 @@
         	max-width: 100%;
   			height: auto;
         }
+	iframe{
+		max-width: auto;
+  		height: 100%;
+	}
         a:link {color: #FFF;}
-		a:visited {color: #ffdfbf;}
-		a:hover {color: #d9ecff;}
+	a:visited {color: #ffdfbf;}
+	a:hover {color: #d9ecff;}
